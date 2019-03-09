@@ -1,4 +1,4 @@
-package rsquared.software.liveutils
+package software.rsquared.liveutils
 
 import androidx.annotation.MainThread
 import androidx.lifecycle.LifecycleOwner

@@ -1,2 +1,2 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="rsquared.software.liveutils"/>
+<manifest
+		package="software.rsquared.liveutils"/>

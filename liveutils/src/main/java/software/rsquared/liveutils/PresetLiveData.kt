@@ -1,4 +1,4 @@
-package rsquared.software.liveutils
+package software.rsquared.liveutils
 
 import androidx.lifecycle.LiveData
 
