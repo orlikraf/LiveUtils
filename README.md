@@ -26,7 +26,8 @@ dependencies {
 
 ## What's inside?
 
-* LiveEvent - This is just SingleLiveEvent from one of google samples renamed 
+* LiveEvent - This is just renamed _SingleLiveEvent_ class from one of google samples. 
 * PresetLiveData - Simple LiveData that only have one value passed on it's creation.
-* ObserverAwareLiveData - Exposes  a LiveData _hasObservers_ that just notifies when this LiveData is observered by anything or not.
+* ObserverAwareLiveData - Exposes _hasObservers_ LiveData that get updates when this LiveData is observed.
 * ObserverAwareMediatorLiveData - Same as above but extends MediatorLiveData. 
+* _todo more..._
