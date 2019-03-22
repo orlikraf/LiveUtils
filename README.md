@@ -18,11 +18,10 @@ allprojects {
 app _build.gradle_
 ```Gradle
 dependencies {
-    implementation 'com.github.rSquared-software:live-utils:x.x.x'
+    implementation 'software.rsquared:live-utils:1.0.2'
 }
 ```
-
-[![](https://jitpack.io/v/rSquared-software/live-utils.svg)](https://jitpack.io/#rSquared-software/live-utils)
+[![](https://jitpack.io/v/software.rsquared/live-utils.svg)](https://jitpack.io/#software.rsquared/live-utils)
 
 ## What's inside?
 
