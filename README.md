@@ -30,7 +30,7 @@ dependencies {
 * ObserverAwareLiveData - Exposes _hasObservers_ LiveData that get updates when this LiveData is observed.
 * ObserverAwareMediatorLiveData - Same as above but extends MediatorLiveData. 
 * LiveDataMutator - An interface with few functions extending _LiveData_ to easy conversion back to mutable. E.g. 
-  ```
+  ```Kotlin
   class Example: LiveMutator {
      val score: LiveData<Int> = MutableLiveData()
      ...
