@@ -51,4 +51,7 @@ class LiveEvent<T> : MediatorLiveData<T>() {
         value = t
     }
 
+    fun postCall(t: T? = null){
+        postValue(t)
+    }
 }
