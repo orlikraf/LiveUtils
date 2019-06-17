@@ -5,16 +5,18 @@ import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.MutableLiveData
 
 interface LiveDataMutator {
-	fun <T> LiveData<T>.post(value: T?) {
+	fun <T> LiveData<T>.post(value: T?): LiveData<T> {
 		if (this is MutableLiveData<T>) {
 			this.postValue(value)
 		}
+		return this
 	}
 
-	fun <T> LiveData<T>.set(value: T?) {
+	fun <T> LiveData<T>.set(value: T?): LiveData<T> {
 		if (this is MutableLiveData<T>) {
 			this.value = value
 		}
+		return this
 	}
 
 	fun <T> LiveData<T>.call() {
