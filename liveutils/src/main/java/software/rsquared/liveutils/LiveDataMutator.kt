@@ -46,4 +46,10 @@ interface LiveDataMutator {
 			else -> null
 		}
 	}
+	
+	fun <X, Y> mapEvent(source: LiveData<X>, mapFunction: (it: X?) -> Y?): LiveData<Y> {
+		return LiveEvent<Y>().apply {
+			addSource(source) { x -> value = mapFunction.invoke(x) }
+		}
+	}
 }
