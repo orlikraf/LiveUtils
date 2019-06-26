@@ -35,6 +35,8 @@ dependencies {
      val score: LiveData<Int> = MutableLiveData()
      ...
      score.asMutable()?.postValue(100)
+     //or
+     score.post(101)
   }
   ```
 * _todo more..._
